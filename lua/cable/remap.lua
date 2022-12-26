@@ -5,7 +5,7 @@ vim.g.mapleader = " "
 
 
 -- File Tree
-vim.keymap.set("n", "<leader>ft", vim.cmd.NvimTreeFocus)
+vim.keymap.set("n", "<leader>e", vim.cmd.NvimTreeFocus)
 
 -- Tabs
 
