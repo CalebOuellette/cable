@@ -1,5 +1,14 @@
 vim.g.mapleader = " "
 
+-- # Insert Remaps
+
+vim.keymap.set("i", "<M-Right>", "<C-o>w")
+vim.keymap.set("i", "<M-Left>", "<C-o>b")
+
+-- # Normal Remaps
+vim.keymap.set("n", "<M-Right>", "w")
+vim.keymap.set("n", "<M-Left>", "b")
+
 
 -- # File Workflow
 
