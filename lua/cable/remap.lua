@@ -1,13 +1,24 @@
 vim.g.mapleader = " "
 
+
+-- M === option
+-- S === shift
+-- C === control
+
+
 -- # Insert Remaps
 
 vim.keymap.set("i", "<M-Right>", "<C-o>w")
 vim.keymap.set("i", "<M-Left>", "<C-o>b")
+vim.keymap.set("i", "<S-M-Right>", "<C-o>$")
+vim.keymap.set("i", "<S-M-Left>", "<C-o>0")
+
 
 -- # Normal Remaps
 vim.keymap.set("n", "<M-Right>", "w")
 vim.keymap.set("n", "<M-Left>", "b")
+vim.keymap.set("n", "<S-M-Right>", "$")
+vim.keymap.set("n", "<S-M-Left>", "0")
 
 
 -- # File Workflow
