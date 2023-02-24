@@ -47,8 +47,8 @@ vim.keymap.set("n", "<leader>gs", vim.cmd.Git);
 vim.keymap.set("n", "J", "mzJ`z")
 
 -- half page jump fixes
-vim.keymap.set("n", "<C-j>", "<C-d>zz")
-vim.keymap.set("n", "<C-k>", "<C-u>zz")
+--vim.keymap.set("n", "<C-j>", "<C-d>zz")
+--vim.keymap.set("n", "<C-k>", "<C-u>zz")
 
 -- keeps cursor in mid on search
 vim.keymap.set("n", "n", "nzzzv")

@@ -1,6 +1,11 @@
 # cable
 
 
+### Adding stuff
+1. Add to packer.lua
+2. Run packer sync
+3. Setup config in after folder with plugin name
+
 ### Keys 
 Refernce remap.lua for all key changes.
 
